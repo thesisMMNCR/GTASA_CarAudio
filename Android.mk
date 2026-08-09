@@ -3,9 +3,9 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_CPP_EXTENSION := .cpp .cc
 ifeq ($(TARGET_ARCH_ABI), armeabi-v7a)
-    LOCAL_MODULE := OnlineRadio
+    LOCAL_MODULE := CarAudio
 else
-    LOCAL_MODULE := OnlineRadio64
+    LOCAL_MODULE := CarAudio64
 endif
 LOCAL_SRC_FILES := main.cpp mod/logger.cpp mod/config.cpp
 LOCAL_CFLAGS += -O2 -mfloat-abi=softfp -DNDEBUG -std=c++17
