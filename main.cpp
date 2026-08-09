@@ -3,8 +3,7 @@
 
 #include <mod/amlmod.h>
 #include <mod/logger.h>
-#include "imgui.h"
-// #include "imgui_internal.h" 
+#include "imgui_internal.h" 
 
 #include <string>
 #include <vector>
